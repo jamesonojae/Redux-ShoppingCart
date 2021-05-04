@@ -10,7 +10,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbdc966-807f-406e-ace1-bc7df8038ed3" name="Default Changelist" comment="shopping cart using very clear redux" />
+    <list default="true" id="bbbdc966-807f-406e-ace1-bc7df8038ed3" name="Default Changelist" comment="shopping cart using very clear redux">
+      <change afterPath="$PROJECT_DIR$/public/images/book-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/garden-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Food/Food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Food/orderFood.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/Shopping/food-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Shopping/shopping-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Shopping/shopping-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Shopping/shopping-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Shopping/shopping-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Shopping/shopping-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Shopping/shopping-types.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ONOJA\Documents\residency-hotel-app\Redux-ShoppingCart\public\images" />
       <recent name="C:\Users\james\OneDrive\Documents\residence-hotel-app\Practice\ShoppingCart-Redux\public\images" />
     </key>
   </component>
@@ -66,6 +84,9 @@
       <updated>1619608018494</updated>
       <workItem from="1619608020752" duration="1582000" />
       <workItem from="1619609649559" duration="24216000" />
+      <workItem from="1619732592127" duration="2553000" />
+      <workItem from="1619906486476" duration="807000" />
+      <workItem from="1619982383401" duration="23506000" />
     </task>
     <task id="LOCAL-00001" summary="shopping cart using very clear redux">
       <created>1619633606792</created>
@@ -106,5 +127,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619634127009" />
+    <state x="492" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619800423894">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="492" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1619800423894" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1619994113931">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1619994113931" />
   </component>
 </project>

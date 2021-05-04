@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Cart from "./components/Cart/Cart";
 import SingleItem from "./components/SingleItem/SingleItem";
+import orderFood from "./components/Food/orderFood";
 
 function App({ currentItem }) {
   return (
@@ -19,6 +20,7 @@ function App({ currentItem }) {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Products} />
+            <Route exact path="/order-food" component={orderFood} />
             <Route exact path="/cart" component={Cart} />
             {!currentItem ?(
                 <Redirect to='/' />

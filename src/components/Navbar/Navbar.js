@@ -16,11 +16,15 @@ const Navbar = ({cart}) => {
     // count = cart.reduce((item, {qty}) => item + qty, 0)
     setCartCount(count);
   }, [cart, cartCount])
+    // console.log(cart);
   cart.reduce((item, {qty}) => item + qty, 0)
   return (
       <div className={styles.navbar}>
         <Link to="/">
           <h2 className={styles.navbar__logo}>Redux Shopping Cart</h2>
+        </Link>
+        <Link to="/order-food">
+          <h2 className={styles.navbar__logo}>Order Food</h2>
         </Link>
         <Link to="/cart">
           <div className={styles.navbar__cart}>

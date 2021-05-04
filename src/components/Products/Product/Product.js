@@ -6,6 +6,7 @@ import {connect} from 'react-redux'
 import {addToCart, loadCurrentItem} from '../../../redux/Shopping/shopping-actions';
 
 const Product = ({productData, addToCart, loadCurrentItem}) => {
+   // console.log('productData', productData)
   return (
       <div className={styles.product}>
         <img className={styles.product__image}

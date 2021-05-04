@@ -6,6 +6,7 @@ import {connect} from 'react-redux'
 import Product from "./Product/Product";
 
 const Products = ({ products }) => {
+  // console.log('product', products)
   return (
       <div className={styles.products}>
         {products.map((prod) => (

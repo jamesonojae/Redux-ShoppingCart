@@ -26,7 +26,9 @@ const Cart = ({ cart }) => {
       <div className={styles.cart}>
         <div className={styles.cart__items}>
           {cart.map(item => (
-              <CartItem key={item.id} itemData={item} />
+              <div key={item.id}>
+                <CartItem itemData={item} />
+              </div>
           ))}
 
         </div>
