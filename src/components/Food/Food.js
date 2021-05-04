@@ -2,9 +2,9 @@ import React from 'react';
 import styles from "../Products/Product/Product.module.css";
 import {Link} from "react-router-dom";
 import {connect} from 'react-redux';
-import {addFoodToCart} from "../../redux/Shopping/shopping-actions";
+import {handleAddToCart} from '../../redux/actions/cart-actions';
 
-const Food = ({foodData, addFoodToCart}) => {
+const Food = ({foodData, handleAddToCart}) => {
     // console.log('foodData', foodData);
     return (
         <div className={styles.product}>
@@ -24,7 +24,7 @@ const Food = ({foodData, addFoodToCart}) => {
                     </button>
                 </Link>
                 <button
-                    onClick={() => addFoodToCart(foodData.foodId)}
+                    onClick={() => handleAddToCart(foodData)}
                     className={`${styles.buttons__btn} ${styles.buttons__add}`}>
                     Add To Cart
                 </button>
@@ -32,9 +32,5 @@ const Food = ({foodData, addFoodToCart}) => {
         </div>
     );
 };
-const mapDispatchToProps = (dispatch) => {
-    return {
-        addFoodToCart: (id) => dispatch(addFoodToCart(id)),
-    }
-}
-export default connect(null, mapDispatchToProps)(Food);
+
+export default connect(null, {handleAddToCart})(Food);

@@ -29,8 +29,7 @@ const foodReducer = (state = INITIAL_STATE, action) => {
             const myFood = state.foods.find((food) => food.foodId === action.payload.id);
 
             // check if item is in cart already
-            const availableInCart = state.cart.find((item) =>
-                item.foodId === +action.payload.id);
+            const availableInCart = state.cart.find(             );
             return {
                 ...state,
                 cart: availableInCart ?

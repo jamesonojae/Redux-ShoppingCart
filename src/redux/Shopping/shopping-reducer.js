@@ -65,7 +65,7 @@ const shopReducer = (state = INITIAL_STATE, action) => {
             )
             : [...state.cart, {...item, qty: 1}] // if check is false
       }
-    /*case actionTypes.ADD_FOOD_TO_CART:
+    case actionTypes.ADD_FOOD_TO_CART:
       const myFood = state.foods.find((food) => food.foodId === action.payload.id);
 
       // check if item is in cart already
@@ -78,7 +78,7 @@ const shopReducer = (state = INITIAL_STATE, action) => {
                 ? {...myFood, qty: +item.qty + 1} : myFood
             )
             : [...state.cart, {...myFood, qty: 1}] // if check is false
-      }*/
+      }
 
     case actionTypes.REMOVE_FROM_CART:
       return {
