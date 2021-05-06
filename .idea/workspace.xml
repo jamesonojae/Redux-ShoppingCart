@@ -10,28 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbdc966-807f-406e-ace1-bc7df8038ed3" name="Default Changelist" comment="shopping cart using very clear redux">
-      <change afterPath="$PROJECT_DIR$/src/mocks/mock-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/cart-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart-reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/types/shop-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bbbdc966-807f-406e-ace1-bc7df8038ed3" name="Default Changelist" comment="changed the redux dir structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Food/Food.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Food/Food.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Food/orderFood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Food/orderFood.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Shopping/food-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Shopping/food-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Shopping/shopping-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Shopping/shopping-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +75,8 @@
       <updated>1619608018494</updated>
       <workItem from="1619608020752" duration="1582000" />
       <workItem from="1619609649559" duration="24216000" />
+      <workItem from="1620204945519" duration="7200000" />
+      <workItem from="1620291568044" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="shopping cart using very clear redux">
       <created>1619633606792</created>
@@ -103,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619633606792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed the redux dir structure">
+      <created>1620153293667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620153293667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="shopping cart using very clear redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping cart using very clear redux" />
+    <MESSAGE value="changed the redux dir structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the redux dir structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620139988797">
@@ -135,9 +125,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619633957892" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619634127009">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620153419354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619634127009" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620153419354" />
   </component>
 </project>
