@@ -28,6 +28,7 @@ const Cart = ({ cart }) => {
         <div className={styles.summary__price}>
           <span>TOTAL: ({totalQuantity})</span>
           <span>$ {totalPrice}</span>
+
         </div>
         <button className={styles.summary__checkoutBtn}>
           Proceed To Checkout
