@@ -1,14 +1,40 @@
-import React, {useEffect, useRef} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import styles from "./Cart.module.css";
 
 import CartItem from "./CartItem/CartItem";
 import {connect} from 'react-redux'
+import {PaystackButton} from 'react-paystack';
 
 const Cart = ({ cart }) => {
+  const publicKey = 'pk_test_6e88c0901dd1c754463ab53e6eb253d55afa7121';
   let totalPrice = cart.reduce((sum, {price, qty}) => sum + (parseInt(price) * qty), 0);
   let totalQuantity = cart.reduce((sum, {qty}) => sum + qty, 0);
+  let firstName = 'Onoja';
+  let tel = '09087654544';
+  let gmail = 'onoja@gmail.com';
 
-  console.log('1', cart);
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const componentProps = {
+    email: gmail,
+    amount: totalPrice * 100,
+    metadata: {
+      name: firstName,
+      phone: tel
+    },
+    publicKey,
+    text: "Buy Now",
+    onSuccess: () => {
+      setEmail("");
+      setName("");
+      setPhone("");
+    },
+    onClose: () => alert("wait! You need this oil, don't go !!")
+  }
+
+  console.log(componentProps);
   useEffect(() => {
     console.log('cart changed');
     console.log('2', cart);
@@ -30,9 +56,9 @@ const Cart = ({ cart }) => {
           <span>$ {totalPrice}</span>
 
         </div>
-        <button className={styles.summary__checkoutBtn}>
+        <PaystackButton className={styles.summary__checkoutBtn} {...componentProps}>
           Proceed To Checkout
-        </button>
+        </PaystackButton>
       </div>
     </div>
   );

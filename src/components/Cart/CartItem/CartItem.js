@@ -9,7 +9,7 @@ const CartItem = ({itemData, handleRemoveFromCart, handleAdjustQty}) => {
   const [quantity, setQuantity] = useState(itemData.qty)
   // console.log(itemData.image, itemData.description, itemData.qty, itemData.price);
   const onChangeHandler = (e) => {
-    // console.log(e.target.value);
+    console.log('qty', e.target.value);
     setQuantity(e.target.value);
     handleAdjustQty(itemData.id, e.target.value);
   }

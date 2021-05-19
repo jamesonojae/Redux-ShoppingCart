@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbdc966-807f-406e-ace1-bc7df8038ed3" name="Default Changelist" comment="little adjustment">
+    <list default="true" id="bbbdc966-807f-406e-ace1-bc7df8038ed3" name="Default Changelist" comment="little adjustment on cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,9 @@
       <workItem from="1620636873782" duration="1820000" />
       <workItem from="1620723623642" duration="1300000" />
       <workItem from="1620733417394" duration="529000" />
-      <workItem from="1620742765596" duration="2744000" />
+      <workItem from="1620742765596" duration="3998000" />
+      <workItem from="1621336626792" duration="8238000" />
+      <workItem from="1621417135434" duration="4409000" />
     </task>
     <task id="LOCAL-00001" summary="shopping cart using very clear redux">
       <created>1619633606792</created>
@@ -107,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620293452768</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="little adjustment on cart">
+      <created>1620754059580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620754059580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +142,8 @@
     <MESSAGE value="shopping cart using very clear redux" />
     <MESSAGE value="changed the redux dir structure" />
     <MESSAGE value="little adjustment" />
-    <option name="LAST_COMMIT_MESSAGE" value="little adjustment" />
+    <MESSAGE value="little adjustment on cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="little adjustment on cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620139988797">
@@ -141,9 +154,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619633957892" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620293468044">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620754069048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620293468044" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620754069048" />
   </component>
 </project>
